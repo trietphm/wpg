@@ -17,5 +17,5 @@ psql -d workshop -f workshop.sql
 You may need to add `-U username -W` if authentication required
 
 ## Database structure
-TBD
 
+Quicksell: https://dbdiagram.io/d/5d7dee9f83427516dc0baa30
