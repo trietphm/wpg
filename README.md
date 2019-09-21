@@ -3,14 +3,15 @@ Sample Postgres database
 
 ## Restore database
 - Create a database name `workshop`
-- Use the commands below to restore the database
-
-```
-pg_restore -Fc --no-owner --clean -d quicksell quicksell.dump
-```
+- Use the command below to restore the database
 
 ```
 psql -d workshop -f workshop.sql
+```
+- Use this command below to create database `quicksell`
+
+```
+pg_restore -Fc --no-owner --clean -d quicksell quicksell.dump
 ```
 
 **Note:**
