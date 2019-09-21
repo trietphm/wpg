@@ -1,6 +1,8 @@
 Sample Postgres database
 ---
 
+This repo contains 2 databases `workshop` and `quicksell`
+
 ## Restore database
 - Create a database name `workshop`
 - Use the command below to restore the database
