@@ -3,6 +3,15 @@ Sample Postgres database
 
 This repo contains 2 databases `workshop` and `quicksell`
 
+## Create your database first
+Using `psql` to create database or any of your favorite tools
+
+```
+$ psql
+=# create database workshop;
+=# create database quicksell;
+```
+
 ## Restore database
 - Create a database name `workshop`
 - Use the command below to restore the database
